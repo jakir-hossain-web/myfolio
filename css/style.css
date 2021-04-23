@@ -1,0 +1,421 @@
+/* =========== common css start ========== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: .8;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+.br{
+    border-right: none !important;
+}
+.pb{
+    padding-bottom: 0 !important;
+}
+.mt{
+    margin-top: 0 !important;
+}
+.input-last{
+    margin: 0 125px !important;
+    width: 920px !important;
+}
+/* =========== header css start ========== */
+#header{
+    background: #02918c;
+}
+.logo{
+    width: 170px;
+    float: left;
+    padding-top: 18px;
+}
+.menu{
+    width: 1000px;
+    float: left;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    color: #fff;
+    line-height: 60px;
+    text-transform: uppercase;
+    padding-left: 50px;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+.menu ul li a:hover{
+    color: #cfc91d;
+}
+/* =========== banner css start ========== */
+#banner{
+    padding-top: 210px;
+    padding-bottom: 210px;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner-text{
+    text-align: center;
+}
+.banner-text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff;
+    padding-bottom: 18px;
+}
+.banner-text h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 68px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 18px;
+    letter-spacing: 25px;
+}
+.banner-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 50px;
+}
+.banner-icon{
+    width: 108px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.banner-link{
+    text-align: center;
+}
+.banner-link a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    color: #0b1016;
+    padding: 15px 43px;
+    background: #cfc91d;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+/* =========== about css start ========== */
+#about{
+    padding-top: 98px;
+    padding-bottom: 98px;
+}
+.head-item{
+    text-align: center;
+}
+.head-item h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 46px;
+    color: #02918c;
+    text-transform: uppercase;
+}
+.head-item h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7e8287;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+.about-text{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.about-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7e8287;
+    padding-bottom: 20px;
+}
+.about-text span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 23px;
+    color: #7e8287;
+}
+.about-item{
+    float: left;
+    text-align: center;
+    width: 290px;
+    border-right: 1px solid #d9dbdb;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+.about-item:hover{
+    background: #f0f0e8;
+}
+.about-item:hover .about-item-icon i{
+    color: #cfc91d;
+}
+.about-item-icon i{
+    font-size: 33px;
+    color: #02918c;
+    padding-top: 35px;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+.about-item-text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #7e8287;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.about-item-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #7e8287;
+    padding-bottom: 13px;  
+}
+.about-item-text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #7e8287;
+    padding-bottom: 50px;  
+}
+/* =========== service css start ========== */
+#service{
+    padding-top: 75px;
+    padding-bottom: 85px;
+    background-image: url(../images/service.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.service-left{
+    width: 50%;
+    background: #f0f0e8;
+}
+.head-item-service{
+    text-align: left;
+}
+.head-item-service h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 46px;
+    color: #02918c;
+    text-transform: uppercase;
+}
+.head-item-service h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7e8287;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+.service-text{
+    margin-bottom: 30px;
+}
+.service-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7e8287;
+    padding-bottom: 23px;
+}
+.service-item{
+    float: left;
+    width: 280px;
+    padding-left: 15px;
+    padding-right: 50px;
+}
+.service-item:hover .service-item-icon i{
+    color: #cfc91d;
+}
+.service-item-icon i{
+    font-size: 33px;
+    color: #02918c;
+    padding-top: 35px;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+.service-item-text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #7e8287;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.service-item-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #7e8287;
+    padding-bottom: 13px;  
+}
+.service-item-text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #7e8287;
+    padding-bottom: 50px;  
+}
+/* =========== work css start ========== */
+#work{
+    padding-top: 110px;
+    padding-bottom: 70px;
+}
+.work-text{
+    text-align: center;
+}
+.work-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7e8287;
+    padding-bottom: 20px;
+}
+.work-item{
+    margin-top: 75px;
+    line-height: 0;
+}
+.work-img{
+    float: left;
+    width: 25%;
+    line-height: 0;
+    position: relative;
+}
+.work-img:hover .work-overly{
+    opacity: 1;
+}
+.work-img img{
+    width: 100%;
+}
+.work-overly{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    background: rgba(2, 145, 140, 0.85);
+    top: 10%;
+    left: 10%;
+    opacity: 0;
+    transition: all linear.5s;
+    -webkit-transition: all linear.5s;
+    -moz-transition: all linear.5s;
+    -ms-transition: all linear.5s;
+    -o-transition: all linear.5s;
+}
+.work-overly-text {
+   text-align: center;
+}
+.work-overly-text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.work-overly-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+    padding-bottom: 13px;  
+}
+.work-overly-text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+    padding-bottom: 50px;  
+}
+/* =========== contact css start ========== */
+#contact{
+    padding-bottom: 70px;
+}
+/* =========== form css start ========== */
+#form{
+    padding-bottom: 70px;
+    background: #0b0b0b;
+}
+.form{
+    text-align: center;
+}
+.form input{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7e8287;
+    background: none;
+    border: none;
+    width: 640px;
+    padding-top: 60px;
+    border-bottom: 1px solid #898989;
+    text-align: center;
+}
+
+.form button{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    color: #0b1016;
+    padding: 15px 43px;
+    background: #cfc91d;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: none;
+    margin-top: 70px;
+}
+/* =========== footer css start ========== */
+#footer{
+    background: #000;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+.footer{
+    text-align: center;
+}
+.footer h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #7e8287;
+}
+/* =========== The end ========== */
